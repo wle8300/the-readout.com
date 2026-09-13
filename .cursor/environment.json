@@ -1,0 +1,14 @@
+{
+  "name": "the-readout.com",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "astro-dev",
+      "command": "npm run dev -- --host 0.0.0.0 --port 4321",
+      "description": "Astro dev server for the Readout marketing site. Serves http://localhost:4321 with hot reload."
+    }
+  ],
+  "ports": [
+    { "name": "astro-dev", "port": 4321 }
+  ]
+}
